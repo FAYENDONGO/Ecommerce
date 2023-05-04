@@ -38,6 +38,73 @@ a{
 img{
     object-fit:contain !important;
 }
+body{
+    background:#e5e5e5;
+
+}
+
+/* Product design */
+
+#product{
+    background:#e5e5e5;
+}
+#product h1{
+     font-size:50px;
+     letter-spacing:2px;
+     font-weight:bold;
+}
+#product img{
+    width:150px;
+    height:150px;
+    object-fit:contain;
+    margin:15px;
+}
+.card{
+    width:230px;
+    height:300px;
+    border:none;
+    box-shadow: 15px 20px 20px gray,
+                inset 4px 4px 10px white;
+    overflow:hidden;
+    justify-content:center;
+    align-items:center;
+    margin:30px;
+    padding:40px;
+    border-radius:15px;
+}
+.card:hover{
+    box-shadow: 15px 20px 20px rgb(150, 147, 147),
+                inset -4px -4px 4px gray;
+    transition:0.1s;
+}
+@media screen and (max-width:576px){
+    .card{
+    width:210px;
+    height:250px;
+    border:none;
+    box-shadow: 15px 20px 20px gray,
+                inset 4px 4px 10px white;
+    overflow:hidden;
+    justify-content:center;
+    align-items:center;
+    margin:20px;
+    padding:20px;
+    border-radius:15px;
+
+}
+#product img{
+    width:180px;
+    height:150px;
+    object-fit:contain;
+    margin:15px;
+    padding:20px;
+    margin-top:20px;
+}
+#product h5{
+    font-size:15px;
+}
+
+}
 
 </style>
 </html>
