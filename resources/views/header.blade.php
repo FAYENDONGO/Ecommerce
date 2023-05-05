@@ -10,7 +10,7 @@
 <span class="me-2"><i class="fa-solid fa-phone me-1 text-warning"></i><small>00221770484242</small>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-lg-block d-md-block-d-sm-block d-xs-none text-end">
- <span class="me-3"><i class="fa-solid fa-truck text-muted me-1"></i><a class="text-muted" href="">Conditions de ventes</a><span>
+ <span class="me-3"><i class="fa-solid fa-truck text-muted me-1"></i><a class="text-muted" href=""></a><span>
  
 </div>
 </div>
@@ -58,10 +58,10 @@
     <a class="nav-link mx-2 " href=""><i class="fa-solid fa-cart-shopping me-1"></i>Mon panier</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link mx-2 " href=""></i>S'inscrire</a>
+    <a class="nav-link mx-2 " href="{{route('register')}}"></i>S'inscrire</a>
 </li>
 <li class="nav-item">
-<a class="dropdown-item" href=""><i class="fa fa-sign-out fa-lg"></i>Login</a>
+<a class="dropdown-item" href="{{route('login')}}"><i class="fa fa-sign-out fa-lg"></i>Login</a>
 </li>
 </ul>
 

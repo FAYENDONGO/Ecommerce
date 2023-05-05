@@ -13,7 +13,7 @@
              <h6 class="text-center mt-3">Mixeur</h6>
           </div>
           <div class="col-md-1">
-             <img class="mt-4" src="https://m.media-amazon.com/images/I/71bCQSQqFUL._AC_UL400_.jpg">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/71y0PANsG2L._AC_SX679_.jpg">
              <h6 class="text-center mt-3">Mixeur </h6>
           </div> 
           <div class="col-md-1">
@@ -21,35 +21,35 @@
              <h6 class="text-center mt-3">Frigo 2 Portes</h6>
           </div>
           <div class="col-md-1">
-             <img class="mt-4" src="https://m.media-amazon.com/images/I/71Ye4dyKV+L._AC_UL400_.jpg">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/71vTS2XFSvL._AC_SX679_.jpg">
              <h6 class="text-center mt-3">Frigo 2 Portes</h6>
           </div>
           <div class="col-md-1">
-             <img class="mt-4" src="https://m.media-amazon.com/images/I/61+lCGsb9vL._AC_UL400_.jpg">
-             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/51fOuafJicL._AC_SX679_.jpg">
+             <h6 class="text-center mt-3">Mini Congélateur</h6>
           </div>
           <div class="col-md-1">
-             <img class="mt-4" src="https://m.media-amazon.com/images/I/51w94oktunL._AC_UL400_.jpg">
-             <h6 class="text-center mt-3">Frigo 1 Porte</h6>
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/510GM3vPgkL._AC_SX679_.jpg">
+             <h6 class="text-center mt-3">Gaziniére</h6>
           </div>
           <div class="col-md-1">
-             <img class="mt-4" src="https://m.media-amazon.com/images/I/712c9bqGM6L._AC_UL400_.jpg">
-             <h6 class="text-center mt-3">Mixeur</h6>
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/91+uC0bwmNL._AC_SX569_.jpg">
+             <h6 class="text-center mt-3">Téléviseur</h6>
           </div>
           <div class="col-md-1">
-             <img class="mt-4" src="https://m.media-amazon.com/images/I/71bCQSQqFUL._AC_UL400_.jpg">
-             <h6 class="text-center mt-3">Mixeur </h6>
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/61nnFg77WlL._AC_SX466_.jpg">
+             <h6 class="text-center mt-3">Bouilloire</h6>
           </div> 
           <div class="col-md-1">
-             <img class="mt-4" src="https://m.media-amazon.com/images/I/61veczcNSRL._AC_UL400_.jpg">
-             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/61rtPBswkxL._AC_SX466_.jpg">
+             <h6 class="text-center mt-3">Aspirateur</h6>
           </div>
           <div class="col-md-1">
-             <img class="mt-4" src="https://m.media-amazon.com/images/I/71Ye4dyKV+L._AC_UL400_.jpg">
-             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/4102syKig0L._AC_.jpg">
+             <h6 class="text-center mt-3">Frigo vertical</h6>
           </div>
           <div class="col-md-1">
-             <img class="mt-4"  src="https://m.media-amazon.com/images/I/61+lCGsb9vL._AC_UL400_.jpg">
+             <img class="mt-4"  src="https://m.media-amazon.com/images/I/417V2D4xi8L._AC_.jpg">
              <h6 class="text-center mt-3">Frigo 2 Portes</h6>
           </div>
       </div>

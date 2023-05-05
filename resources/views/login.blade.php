@@ -16,9 +16,24 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
 </head>
 <body>
-    {{View::make('header')}}
-    @yield('content')
-    {{View::make('footer')}}
+    
+
+    @include("header")
+    <form method="POST" id="loginForm" style="width:350px; height:auto; background:white; padding:20px; border-radius:10px; border:solid 0.5px #e5e5e5; margin:0 auto; margin-top:5%; margin-bottom:5%;">
+        <p style="font-size:20px; font-weight:bold;">Login</p>
+        <p>
+            <input type="text" name="emailid" placeholder="Adresse email">
+        </p>
+        <p>
+            <input type="password" name="password" placeholder="Mot de passe">
+        </p>
+        <p>
+            Mot de passe oublié ? <a href="https://google.com">Réinitialisez-le ici</a>.
+        </p>
+        <p>
+            <input type="submit" value="SE CONNECTER">
+        </p>
+</form>
      
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
@@ -28,141 +43,44 @@
   
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   @include("footer")
 
 </body>
+
+
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* firstsection */
 
-.first{
-  box-shadow:10px 2px 5px gray;
-}
-.firstsection img{
-    width: 60px;
-    height:60px;
-    object-fit:contain;
- }
- .firstsection h6{
-    font-size:12px;
- }
-a{
-    font-size:14px;
-    font-weight:700;
-}
-.superNav{
-    fon-size:13px;
-}
-.form-control{
-    outline:none !important;
-    box-shadow:none !important
-}
-@media screen and (max-width:540px)
-{
-    .centerOnmobile{
-        text-align:center
+    a { 
+        text-decoration:none;
+        color:orange;
+        font-weight:bold;
     }
-}
-img{
-    object-fit:contain !important;
-}
-body{
-  background:white;
+    form {
+        text-align:center;
+    }
 
+    label {
+        display:block;
+        font-size:16px;
+        color:dimgrey;
+        margin-bottom:5px;
+    }
 
-}
+    input {
+        padding:15px;
+        border-radius:10px;
+        border:solid 0.5px #e5e5e5;
+    }
 
-/* Product design */
+    input:focus {
+        outline:solid 2px orange;
+    }
 
-#product{
-
-}
-#product h1{
-     font-size:50px;
-     letter-spacing:2px;
-     font-weight:bold;
-}
-#product img{
-    width:150px;
-    height:150px;
-    object-fit:contain;
-    margin:15px;
-}
-.card{
-    width:230px;
-    height:300px;
-    border:none;
-    box-shadow: 0 0 14px 6px rgba(0,0,0,0.04);
-    border:solid 0.5px #e5e5e5;
-    justify-content:center;
-    border-radius:13px;
-    align-items:center;
-    margin:30px;
-    padding:40px;
-
-}
-.card:hover{
-    transform:scale(1.2);
-    transition:0.1s;
-}
-@media screen and (max-width:576px){
-    .card{
-    width:210px;
-    height:250px;
-    border:none;
-    box-shadow: 15px 20px 20px gray,
-                inset 4px 4px 10px white;
-    overflow:hidden;
-    justify-content:center;
-    align-items:center;
-    margin:20px;
-    padding:20px;
-
-
-}
-#product img{
-    width:180px;
-    height:150px;
-    object-fit:contain;
-    margin:15px;
-    padding:20px;
-    margin-top:20px;
-}
-#product h5{
-    font-size:15px;
-}
-
-}
-.sectiontwo img{
-    width:300px;
-    height:200px;
-}
-
+    input[type=submit] {
+        background:orange;
+        color:white;
+        border:none;
+        border-radius:10px;
+    }
 </style>
-
-  
-<script type="text/javascript"> 
-   $('.owl-carousel').owlCarousel(
-    {
-         loop:true,
-         margin:30,
-         nav:false,
-         autoplay:true,
-         dots:false,
-         stagePadding:50,
-         autoplayTimeout:20  00,
-       responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:4
-            }
-         }
-   })
-</script>
-
-
 </html>

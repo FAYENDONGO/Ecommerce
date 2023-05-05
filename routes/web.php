@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('product');
 });
+
+Route::get('login', function () {
+    return view('login');
+})->name("login");
+
+Route::get('reset-password', function () {
+    echo "Salut";
+    return "hello";
+})->name("password.request");
+
+Route::get('register', function () {
+    return view('register');
+})->name("register");
