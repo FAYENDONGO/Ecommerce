@@ -1,8 +1,65 @@
 @extends('master')
 @section('content')
+<div class="first">
+<section class="firstsection container">
+   <div class="">
+      <div class="row">
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/51w94oktunL._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Frigo 1 Porte</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/712c9bqGM6L._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Mixeur</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/71bCQSQqFUL._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Mixeur </h6>
+          </div> 
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/61veczcNSRL._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/71Ye4dyKV+L._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/61+lCGsb9vL._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/51w94oktunL._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Frigo 1 Porte</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/712c9bqGM6L._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Mixeur</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/71bCQSQqFUL._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Mixeur </h6>
+          </div> 
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/61veczcNSRL._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4" src="https://m.media-amazon.com/images/I/71Ye4dyKV+L._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+          </div>
+          <div class="col-md-1">
+             <img class="mt-4"  src="https://m.media-amazon.com/images/I/61+lCGsb9vL._AC_UL400_.jpg">
+             <h6 class="text-center mt-3">Frigo 2 Portes</h6>
+          </div>
+      </div>
+  </div>
+
+</section>
+</div>
 
 <section id="carousel">
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide mt-4" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
