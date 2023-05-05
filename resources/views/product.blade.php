@@ -37,8 +37,47 @@
 </div>
 </section>
 
+<section class="sectiontwo mt-5">
+<div class="owl-carousel owl-theme">
+<div class="item">
+   <img src="https://m.media-amazon.com/images/I/51Ij-jjZWbL._AC_SX466_.jpg">
+</div>
+<div class="item">
+   <img src="https://m.media-amazon.com/images/I/91JJ3s2vGSL.__AC_SY445_SX342_QL70_ML2_.jpg">
+</div>
+<div class="item">
+   <img src="https://m.media-amazon.com/images/I/51cK0Vx9zDL._AC_SX679_.jpg">
+</div>
+<div class="item">
+   <img src="https://m.media-amazon.com/images/I/513PhkS-ZrS._AC_SY606_.jpg">
+</div>
+<div class="item">
+   <img src="https://m.media-amazon.com/images/I/41V9bTSg+EL._AC_SY679_.jpg">
+</div>
+<div class="item">
+   <img src="https://m.media-amazon.com/images/I/51HToaHSGPL._AC_SX679_.jpg">
+</div>
+<div class="item">
+   <img src="https://m.media-amazon.com/images/I/31nRKwaSI7S._AC_SX679_.jpg">
+</div>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section id="product">
-    <h1 class="text-center text-muted mt-3 h1">Nos Produits<h1>
+    <h1 class="text-center text-muted mt-5 h1">Nos Produits<h1>
 <div class="container mt-1 p-3">
 
 
