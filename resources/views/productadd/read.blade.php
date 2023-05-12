@@ -13,6 +13,7 @@
     {{View::make('header')}}
 
      <div class="container">
+        <a href="productadd" class="btn btn-success mt-5">Add Product</a>
      <table class="table mt-5 mb-5 table-bordered">
          <tr>
             <th>ID</th>

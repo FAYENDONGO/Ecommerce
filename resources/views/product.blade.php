@@ -382,7 +382,7 @@
 @foreach($products as $product)
  <div  class="col-6 col-md-3">
           <div class="card">
-            <a href="detail"><img src="{{ asset('images/'.$product->image) }}"></a>
+            <a href="detail/{{$product->id}}"><img src="{{ asset('images/'.$product->image) }}"></a>
             <div class="card-body text-center">
               <h5 class="card-title text-center">{{$product['name']}}</h5>  
             </div>

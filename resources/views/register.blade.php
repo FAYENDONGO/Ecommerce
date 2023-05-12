@@ -157,12 +157,11 @@
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                    <input type="text"  id="form3Example1c" class="form-control @if ($errors->has('name') is-invalid @endif" name="name" value="{{old('name')}}" />
+                    <label class="form-label" for="form3Example1c">Your Name</label>
 
-                      <label class="form-label" for="form3Example1c">Your Name</label>
-                      @if ($errors->has('name'))
-                       <div class="" style="color:red;">{{ $errors->first('name') }}</div>
-                    @endif
+                    <input type="text"  id="form3Example1c" class="form-control" name="name" required />
+                    
+                      
                     </div>
                    
                   </div>
@@ -170,11 +169,10 @@
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="email" name="email" id="form3Example3c" class="form-control @if ($errors->has('email') is-invalid @endif" value="{{old('email')}}">
-                      <label class="form-label" for="form3Example3c">Your Email</label>
-                      @if ($errors->has('email'))
-                       <div class="" style="color:red;">{{ $errors->first('email') }}</div>
-                      252@endif
+                    <label class="form-label" for="form3Example3c">Your Email</label>
+
+                      <input type="email" name="email" id="form3Example3c" class="form-control" required>
+                    
                     </div>
                  
                   </div>
@@ -182,11 +180,10 @@
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="password" name="password" id="form3Example4c" class="form-control @if ($errors->has('password') is-invalid @endif" value="{{old('password')}}" />
-                      <label class="form-label" for="form3Example4c">Password</label>
-                      @if ($errors->has('password'))
-                       <div class="" style="color:red;">{{ $errors->first('password') }}</div>
-                    @endif
+                    <label class="form-label" for="form3Example4c">Password</label>
+
+                      <input type="password" name="password" id="form3Example4c" class="form-control" required/>
+                    
                     </div>
                   
                   </div>

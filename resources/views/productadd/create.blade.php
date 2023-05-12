@@ -39,7 +39,8 @@
          </div> 
        
           <button type="submit" class="btn btn-success">Add Product</button>
-        </form>
+           <a href="read" class="btn btn-primary">View Product</a>
+         </form>
     </section>
 
     {{View::make('footer')}}

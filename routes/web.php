@@ -50,6 +50,23 @@ Route::get('edit/{id}',[Productadd::class,'edit']);
 Route::post('update/{id}',[Productadd::class,'update']);
 Route::get('delete/{id}',[Productadd::class,'delete']);
 
+/* detailproduct */
+Route::get('detail/{id}',[Productadd::class,'detail']);
+
+/* Add cart */
+
+Route::post('/add_to_cart',[ProductController::class,'addToCart']);
+
+/* Search Product */
+Route::get('/search',[ProductController::class,'search']);
+
+/*logout*/
+Route::get('logout', function () {
+    Session::forget('user');
+    return redirect('login');
+});
+
+
 
 
 

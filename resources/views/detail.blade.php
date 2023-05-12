@@ -7,17 +7,22 @@
 <div class="container bg-white">
     <div class="row m-5 p-5">
     <div class="col-sm-6">
-        <img class="detail-img" src="https://m.media-amazon.com/images/I/817H-JwTHDL._AC_SX466_.jpg">
+        <img class="detail-img" src="{{ asset('images/'.$product->image) }}">
     </div>
 <div class="col-sm-6 col-2">
     <a href="/">Go back</a>
-    <h3 class="mt-5">Fritteuse<h2>
-        <h3 class="mt-3">Price : 100$</h2>
-        <h4 class="mt-3">Details :  after add this you ok?</h2>
-        <h4 class="mt-3">Category also</h2>
+    <h2 class="mt-3">{{$product->description}}</h2>
+
+        <h4 class="mt-5 text-muted">{{$product->name}}<h4>
+        <h4 class="mt-3 text-muted">{{$product->price}}</h4>
+      
         <div class="mt-5">
-    <button class="btn btn-warning">Add to card</button>
-    <button class="btn btn-success">Buy now</button>
+         <form action="/add_to_cart" method="post">
+            @csrf
+          <input type="hidden" name="product_id" value="{{$product->id}}">
+          <button class="btn btn-warning">Add to card</button>
+           <button class="btn btn-success">Buy now</button>
+        </form>   
 </div>
 </div>
 </div>
