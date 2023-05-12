@@ -17,7 +17,10 @@
 </head>
 <body>
     {{View::make('header')}}
+    
     @yield('content')
+
+    
     {{View::make('footer')}}
      
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
@@ -66,7 +69,7 @@ img{
     object-fit:contain !important;
 }
 body{
-  background:white;
+  background: #F5F5F5;
 
 
 }
@@ -82,8 +85,8 @@ body{
      font-weight:bold;
 }
 #product img{
-    width:150px;
-    height:150px;
+    width:200px;
+    height:200px;
     object-fit:contain;
     margin:15px;
 }
@@ -100,10 +103,10 @@ body{
     padding:40px;
 
 }
-.card:hover{
+/*.card:hover{
     transform:scale(1.2);
     transition:0.1s;
-}
+}*/
 @media screen and (max-width:576px){
     .card{
     width:210px;
@@ -134,8 +137,34 @@ body{
 }
 .sectiontwo img{
     width:300px;
-    height:200px;
+    height:400px;
 }
+.card-first{
+    width:300px;
+    height:420px;
+    overflow:hidden;
+    padding:40px;
+    border:none !important;
+}
+.card-first h6{
+    position:relative;
+    bottom:40px;
+    right:13px;
+    font-size:20px;
+}
+.card-first img{
+    width:100px;
+    height:100px;
+    object-fit:contain;
+}
+
+/* detail */
+.detail-img{
+    width:400px;
+    height:400px;
+    object-fit:contain;
+}
+   
 
 </style>
 
@@ -149,7 +178,7 @@ body{
          autoplay:true,
          dots:false,
          stagePadding:50,
-         autoplayTimeout:20  00,
+         autoplayTimeout:2000,
        responsive:{
             0:{
                 items:1

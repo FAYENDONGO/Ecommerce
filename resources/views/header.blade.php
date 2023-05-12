@@ -42,7 +42,7 @@
 
 <ul class="navbar-nav ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="">Accueil</a>
+    <a class="nav-link" href="/">Accueil</a>
 <li>  
 <li class="nav-item">
     <a class="nav-link" href="">Qui sommes nous</a>
@@ -55,10 +55,10 @@
 
 <ul class="navbar-nav ms-auto">
 <li class="nav-item">
-    <a class="nav-link mx-2 " href=""><i class="fa-solid fa-cart-shopping me-1"></i>Mon panier</a>
+    <a class="nav-link mx-2" href=""><i class="fa-solid fa-cart-shopping me-1"></i>Mon panier</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link mx-2 " href="{{route('register')}}"></i>S'inscrire</a>
+    <a class="nav-link mx-2" href="register">S'inscrire</a>
 </li>
 <li class="nav-item">
 <a class="dropdown-item" href="{{route('login')}}"><i class="fa fa-sign-out fa-lg"></i>Login</a>

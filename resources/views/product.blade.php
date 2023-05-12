@@ -94,6 +94,7 @@
 </div>
 </section>
 
+
 <section class="sectiontwo mt-5">
 <div class="owl-carousel owl-theme">
 <div class="item">
@@ -117,23 +118,140 @@
 <div class="item">
    <img src="https://m.media-amazon.com/images/I/31nRKwaSI7S._AC_SX679_.jpg">
 </div>
-
 </div>
 </section>
 
 
+<section class="mt-4 m-0">
+<div class="row">
+  <div class="col-md-3 col-12">
+  <div class="card card-first">
+  <h6 class="fw-bold text-center">Starting $40 | Home,
+      <br>Cuisine & more</h6>
+    </h3>
+    <div class="img mt-3">
+      <img class="card-img-top" style="position:relative;right:20px;bottom:40px;" src="https://m.media-amazon.com/images/I/71MdhH8u31L.__AC_SY445_SX342_QL70_ML2_.jpg">
+      <img class="card-img-top" style="position:relative;left:20px;bottom:40px;" src="https://m.media-amazon.com/images/I/510zKD18z7L._AC_SX466_.jpg">
+    </div>
+    <div class="img">
+      <img class="card-img-top" style="position:relative;right:20px;top:5px;" src="https://m.media-amazon.com/images/I/61vu3kX-3pL._AC_SX679_.jpg">
+      <img class="card-img-top" style="position:relative;left:20px;top:5px;" src="https://m.media-amazon.com/images/I/612GnbFnt0L._AC_SX679_.jpg">
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3 col-12">
+  <div class="card card-first">
+  <h6 class="fw-bold text-center">Starting $40 | Home,
+      <br>Cuisine & more</h6>
+    <div class="img mt-3">
+      <img class="card-img-top"  style="position:relative;right:20px;bottom:40px;" src="https://m.media-amazon.com/images/I/51fFACR36cL._AC_SX679_.jpg">
+      <img class="card-img-top"  style="position:relative;left:20px;bottom:40px;"  src="https://m.media-amazon.com/images/I/51fOuafJicL._AC_SX679_.jpg">
+    </div>
+    <div class="img">
+      <img class="card-img-top" style="position:relative;right:20px;top:5px;" src="https://m.media-amazon.com/images/I/41F79DZ902L._AC_.jpg">
+      <img class="card-img-top" style="position:relative;left:20px;top:5px;" src="https://m.media-amazon.com/images/I/41WT6w9z62L._AC_SX569_.jpg">
+
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3 col-12">
+  <div class="card card-first">
+  <h6 class="fw-bold text-center">Starting $40 | Home,
+      <br>Cuisine & more</h6>
+    <div class="img mt-3">
+      <img class="card-img-top"  style="position:relative;right:20px;bottom:40px;" src="https://m.media-amazon.com/images/I/81fuohrT6uL._AC_SX569_.jpg">
+      <img class="card-img-top"  style="position:relative;left:20px;bottom:40px;" src="https://m.media-amazon.com/images/I/51q8cOIkeUL._AC_.jpg">
+    </div>
+    <div class="img">
+      <img class="card-img-top" style="position:relative;right:20px;top:5px;" src="https://m.media-amazon.com/images/I/71VdBlmSczL._AC_SY355_.jpg">
+      <img class="card-img-top" style="position:relative;left:20px;top:5px;" src="https://m.media-amazon.com/images/I/817pdU2pLgS.__AC_SX300_SY300_QL70_ML2_.jpg">
+
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3 col-12">
+  <div class="card card-first">
+  <h6 class="fw-bold text-center">Starting $40 | Home,
+      <br>Cuisine & more</h6>
+    <div class="img mt-3">
+      <img class="card-img-top" style="position:relative;right:20px;bottom:40px;" style="position:relative !important;left:80;" src="https://m.media-amazon.com/images/I/51c9em3LloL._AC_SY355_.jpg">
+      <img class="card-img-top"  style="position:relative;left:20px;bottom:40px;" src="https://m.media-amazon.com/images/I/81sf8+YJgnL._AC_SX466_.jpg">
+    </div>
+    <div class="img">
+      <img class="card-img-top" style="position:relative;right:20px;top:5px;" src="https://m.media-amazon.com/images/I/61aBzS1TGyS._AC_SY879_.jpg">
+      <img class="card-img-top" style="position:relative;left:20px;top:5px;" src="https://m.media-amazon.com/images/I/717v2UdfinL._AC_SX466_.jpg">
+
+    </div>
+    </div>
+    </div>
+
+</div>
+
+</section>
+
+
+<!--<section class="m-4">
+<div class="row">
+    <div class="col-md-3 col-12">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+
+    <div class="col-md-3 col-12">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+
+    <div class="col-md-3 col-12">
+    <div class="card card-first" style="width: 18rem;">
+      <div class="img">
+      <img class="card-img-top" src="https://m.media-amazon.com/images/I/71MdhH8u31L.__AC_SY445_SX342_QL70_ML2_.jpg">
+      <img class="card-img-top" src="https://m.media-amazon.com/images/I/510zKD18z7L._AC_SX466_.jpg">
+
+      </div>
+      <div class="img">
+      <img class="card-img-top" src="https://m.media-amazon.com/images/I/71MdhH8u31L.__AC_SY445_SX342_QL70_ML2_.jpg">
+      <img class="card-img-top" src="https://m.media-amazon.com/images/I/510zKD18z7L._AC_SX466_.jpg">
+
+       </div>
+
+     </div>
+    </div>
+
+    <div class="col-md-3 col-12">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+
+</div>
+
+
+</section>-->
 
 
 
 
 
 
-
-
-
-
-
-<section id="product">
+<!--<section id="product">
     <h1 class="text-center text-muted mt-5 h1">Nos Produits<h1>
 <div class="container mt-1 p-3">
 
@@ -141,7 +259,7 @@
 <div class="row">
 <div  class="col-6 col-md-3">
   <div class="card">
-    <img src="https://m.media-amazon.com/images/I/817H-JwTHDL._AC_SX466_.jpg">
+    <a href="detail"><img src="https://m.media-amazon.com/images/I/817H-JwTHDL._AC_SX466_.jpg"></a>
     <div class="card-body text-center">
       <h5 class="card-title text-center">Fritteuse</h5>  
     </div>
@@ -255,7 +373,25 @@
 
 </div>
 
-</section>
+</section>-->
 
+<section id="product">
+    <h1 class="text-center text-muted mt-5 h1">Nos Produits<h1>
+<div class="container mt-1 p-3">
+<div class="row">
+@foreach($products as $product)
+ <div  class="col-6 col-md-3">
+          <div class="card">
+            <a href="detail"><img src="{{ asset('images/'.$product->image) }}"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">{{$product['name']}}</h5>  
+            </div>
+          </div>
+ </div>
+@endforeach
+
+</div>
+</div>
+</section>
       
 @endsection
