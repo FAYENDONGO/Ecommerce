@@ -65,10 +65,9 @@ if(Session::has('user'))
 <li>
 <ul>
 
-
 <ul class="navbar-nav ms-auto">
 <li class="nav-item">
-    <a class="nav-link mx-2" href=""><i class="fa-solid fa-cart-shopping me-1"></i>Mon panier ({{$total}})</a>
+    <a class="nav-link mx-2" href="/cartlist"><i class="fa-solid fa-cart-shopping me-1"></i>Mon panier ({{$total}})</a>
 </li>
 <li class="nav-item">
     <a class="nav-link mx-2" href="register">S'inscrire</a> 

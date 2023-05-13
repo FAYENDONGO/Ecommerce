@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use App\Models\Cart;
 use App\Models\Product;
 use Session;
+use Illuminate\Support\Facades\DB;
 
 class ProductController extends Controller
 {
@@ -59,5 +60,20 @@ class ProductController extends Controller
         //return $request->input();
         $data=Product::where('name','like','%'.$request->input('query').'%')->get();
         return view('search',['products'=>$data]);
+    }
+    public function cartList()
+    {
+      $userId=Session::get('user')['id'];
+      $products=DB::table('carts')
+      ->join('products','carts.product_id','=','products.id')
+      ->where('carts.user_id',$userId)
+      ->select('products.*','carts.id as carts_id')
+      ->get();
+      return view('cartlist',['products'=>$products]);
+    }
+    public function removeCart($id)
+    {
+        Cart::destroy($id);
+        return redirect('cartlist');
     }
 }

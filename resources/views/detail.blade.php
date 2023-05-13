@@ -21,7 +21,7 @@
             @csrf
           <input type="hidden" name="product_id" value="{{$product->id}}">
           <button class="btn btn-warning">Add to card</button>
-           <button class="btn btn-success">Buy now</button>
+         <a href="order"> <button class="btn btn-success">Buy now</button></a
         </form>   
 </div>
 </div>
