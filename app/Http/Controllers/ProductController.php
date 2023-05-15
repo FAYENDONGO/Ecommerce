@@ -76,4 +76,14 @@ class ProductController extends Controller
         Cart::destroy($id);
         return redirect('cartlist');
     }
+    public function orderNow()
+    {
+        $userId=Session::get('user')['id'];
+        $total=DB::table('carts')
+        ->join('products','carts.product_id','=','products.id')
+        ->where('carts.user_id',$userId)
+        ->sum('products.price');
+
+        return view('ordernow',compact('total')); //compact function mean data passing another page
+    }
 }

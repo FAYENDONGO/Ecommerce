@@ -32,9 +32,10 @@
          <div class="col-sm-4 col-md-4 mt-5">
                   <a href="removecart/{{$item->carts_id}}" class="btn btn-warning">Remove to Cart</a>
          </div>
-
+         <hr>
      </div>
     @endforeach
+    <a href="/ordernow" class="btn btn-success mt-3">Order now</a>
 </div>
 
 
