@@ -9,7 +9,7 @@ if(Session::has('user'))
 ?>
 
 
-<div class="superNav border-bottom py-2 bg-light">
+<div class="superNav border-bottom py-2 " style="background-color: rgb(255, 255, 160);">
 <div class="container">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-1 col-xs-12 centerOnMobile">
@@ -28,7 +28,7 @@ if(Session::has('user'))
 </div>
 </div>
 
-<nav class="navbar navbar-expand-lg bg-white sticky-top navbar-light p-3 shadow-sm">
+<nav class="navbar navbar-expand-lg  sticky-top navbar-light fw-bold p-3 shadow-sm" style="background-color:rgb(188, 249, 249);">
 <div class="container">
 <a class="navbar-brand" href="#">Logo</a>
    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavdropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@ if(Session::has('user'))
     <a class="nav-link" href="/">Accueil</a>
 <li>  
 <li class="nav-item">
-    <a class="nav-link" href="">Qui sommes nous</a>
+    <a class="nav-link" href="/myorders">Qui sommes nous</a>
 <li>
 <li class="nav-item">
     <a class="nav-link" href="">Contactez nous</a>

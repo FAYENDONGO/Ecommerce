@@ -14,20 +14,20 @@
     <section id="product">
         <h1 class="text-center text-muted mt-5 h1">Nos Produits<h1>
     <div class="container mt-1 p-3">
-        <h3>Results</h3>
+        <h3 class="text-success">Results</h3>
     <div class="row mt-5">
     @foreach($products as $product)
-     <div  class="col-6 col-md-3">
+     <div  class="col-6 col-md-4">
               <div class="">
               
-              <a href="detail/{{$product->id}}"><img style="width:250px;height:250px;object-fit:contain;" src="{{ asset('images/'.$product->image) }}"></a>
+              <a href="detail/{{$product->id}}"><img style="width:350px;height:350px;object-fit:contain;" src="{{ asset('images/'.$product->image) }}"></a>
               </div>
             </div>
-              <div  class="col-6 col-md-3">
+              <div  class="col-6 col-md-6 mt-5">
                 
                 <div class="card-body mt-5">
-                  <h5 class="card-title text-center h3">{{$product['description']}}</h5>  
-                  <h5 class="card-title text-center text-success mt-4">{{$product['price']}}</h5>  
+                  <h5 class="card-title  h3">{{$product['description']}}</h5>  
+                  <h5 class="card-title  text-success mt-4">{{$product['price']}} cfa</h5>  
                  </div>
                 </div>
               </div>

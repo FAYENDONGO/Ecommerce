@@ -88,13 +88,14 @@ body{
     width:200px;
     height:200px;
     object-fit:contain;
-    margin:15px;
+   
+margin-top:20px;
 }
 .card{
     width:230px;
     height:300px;
     border:none;
-    box-shadow: 0 0 14px 6px rgba(0,0,0,0.04);
+    box-shadow: 0 0 14px 6px rgba(174, 171, 171, 0.04);
     border:solid 0.5px #e5e5e5;
     justify-content:center;
     border-radius:13px;

@@ -31,7 +31,7 @@
 
 
      </table>
-     <form action="" method="">
+     <form action="/orderplace" method="post">
        @csrf
        <div class="form-group">
           <input type="text" style="height:65px;" name="address" placeholder="enter your address" class="form-control">
@@ -39,9 +39,9 @@
       <div class="form-group">
           <label class="form-label mt-4 fw-bold">Payment Method</label><br>
           <hr>
-          <input class="mt-4" value="cash" type="radio" name="payment"><span class="fw-bold"> Online payment</span><br>
-          <input class="mt-4" value="cash" type="radio" name="payment"><span class="fw-bold"> EMI</span><br>
-          <input class="mt-4" value="cash" type="radio" name="payment"><span class="fw-bold"> cash on delivery</span><br>
+          <input class="mt-4"  type="radio" name="payment"><span class="fw-bold"> Online payment</span><br>
+          <input class="mt-4"  type="radio" name="payment"><span class="fw-bold"> EMI</span><br>
+          <input class="mt-4"  type="radio" name="payment"><span class="fw-bold"> cash on delivery</span><br>
       </div>
      <button class="btn btn-success mt-5" type="submit">Confirm Order</button>
      </form>
